@@ -3,28 +3,26 @@
 
 /* Body styling */
 body {
-  background: {{ site.data.style.background_color }};
-  color: {{ site.data.style.text.body }};
-  padding: {{ site.data.style.spacing.base }};
+  background: {{ site.visual.style.background_color }};
+  color: {{ site.visual.style.text.body }};
+  padding: {{ site.visual.style.spacing.base }};
   font-family: Arial, Helvetica, sans-serif;
   font-size: 56px;
 }
 
 /* Headings */
 h1, h2, h3 {
-  color: {{ site.data.style.text.header }};
+  color: {{ site.visual.style.text.header }};
 }
 
 /* Buttons */
 button {
-  background: {{ site.data.style.secondary_color }};
-  padding: {{ site.data.style.spacing.large }};
+  background: {{ site.visual.style.secondary_color }};
+  padding: {{ site.visual.style.spacing.large }};
   color: #fff;
 }
 
 /* Links */
 a {
-  color: {{ site.data.style.primary_color }};
+  color: {{ site.visual.style.primary_color }};
 }
-
-
