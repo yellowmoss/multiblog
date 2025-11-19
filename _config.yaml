@@ -2,3 +2,6 @@ title: My Simple Weird Blog
 description: Search blog structure from which to expand and customise 
 baseurl: "build"
 url: "https://yellowmoss.github.io"
+collections:
+  posts:
+    output: true
