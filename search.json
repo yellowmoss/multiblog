@@ -3,11 +3,11 @@ layout: null
 ---
 
 [
-{% assign docs ="" | split: "" %}
+{% assign docs = "" | split: "" %}
 
-{%- for collection in site.search_collections -%}
-   {%- assign docs = docs | concat: site.collections[name].docs -%}
-{%- endfor -%}
+{% for name in site.search_collections %}
+  {% assign docs = docs | concat: site.collections[name].docs %}
+{% endfor %}
 
 {%- assign sorted = docs | sort: "tags" | sort: "collection" -%}
 
