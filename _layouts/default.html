@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.url }}/{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.url }}/{{ site.baseurl }}/assets/css/main-style.css">
 </head>
 <body>
+  {% include header.html %}
   <main>
-    <h2>good morning</h2>
-    <p>yes yes yes yes</p>
     {{ content }}
   </main>
   {% include footer.html %}

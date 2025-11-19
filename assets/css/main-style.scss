@@ -1,0 +1,26 @@
+---
+---
+
+/* Body styling */
+body {
+  background: {{ site.data.style.background_color }};
+  color: {{ site.data.style.text.body }};
+  padding: {{ site.data.style.spacing.base }};
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: {{ site.data.style.text.header }};
+}
+
+/* Buttons */
+button {
+  background: {{ site.data.style.secondary_color }};
+  padding: {{ site.data.style.spacing.large }};
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: {{ site.data.style.primary_color }};
+}
