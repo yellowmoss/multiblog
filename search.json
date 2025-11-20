@@ -2,11 +2,13 @@
 layout: null
 ---
 
+
 [
-
-  { "title": "apple" },
-  { "title": "banana" },
-
+    {
+        "title": "apple"
+    },
+    {
+        "title": "banana"
+    }
 ]
-
 
