@@ -4,9 +4,10 @@ layout: null
 
 [
 
-{"title": "posts"},
-{"title": "articles"},
-{"title": "news"},
-{"title": "links"}
+{% for name in site.collections %}
+
+{"title": {{ name }} },
+
+{% endfor %}
 
 ]
