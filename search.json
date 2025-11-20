@@ -3,10 +3,10 @@ layout: null
 ---
 
 [
-
 {% for name in site.collections %}
-  { "title": "apple" },
-}
+
+  { "title": {{ name }} },
+
 {% endfor %}
 
 ]
