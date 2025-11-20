@@ -6,7 +6,13 @@ layout: null
 
 {% for name in site.collections %}
 
-{"title": {{ name }} },
+{% for item in site.{{ name }} %}
+
+   {% {{item}} | json %}
+
+{% endfor %}
+
+
 
 {% endfor %}
 
