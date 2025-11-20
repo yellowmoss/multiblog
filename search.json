@@ -4,9 +4,9 @@ layout: null
 
 [
 
-{%- for name in site.collections -%}
-  "title": {{ name }},
-}
-{%- endfor -%}
+{"title": "posts"},
+{"title": "articles"},
+{"title": "news"},
+{"title": "links"}
 
 ]
