@@ -2,5 +2,14 @@
 layout: null
 ---
 
-{{ site.collections | json }}
+
+[
+
+{% for name in site.collections %}
+  { "title": {{ name }} },
+}
+{% endfor %}
+
+]
+
 
